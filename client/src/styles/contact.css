@@ -1,0 +1,12 @@
+#main #contact{
+    text-align:center;
+    margin:3.5em 0;
+}
+#contact form input, #contact form textarea{
+    margin:0.5em auto;
+    display: block;
+}
+textarea{
+    font-size:1.25em;
+    font-family: inherit;
+}

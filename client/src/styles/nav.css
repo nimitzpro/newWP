@@ -1,0 +1,82 @@
+@font-face{
+    font-family:"Chopin Script";
+    src:url('../assets/ChopinScript.ttf');
+}
+#header nav a{
+    padding:1em 1.25em;
+    font-size:1.5em;
+    text-decoration: none;
+    color:white;
+    text-emphasis: bold;
+    font-family: 'Futura', sans-serif;
+    transition:all 0.5s ease;
+    cursor: pointer;
+}
+#header nav a:hover{
+    background-color:rgba(200,200,200,0.25);
+    color:rgb(255, 211, 240);
+}
+nav{
+    position:fixed;
+    width:100%;
+    display:flex;
+    background: linear-gradient(270deg, rgba(4,0,79,0.6) 0%, rgba(121,9,107,0.5) 26%, rgba(169,70,152,0.5) 57%, rgba(0,212,255,0.4) 100%);
+    /* background-color:white; */
+    justify-content: flex-end;
+
+}
+#header{
+    height:100%;
+    overflow-x:hidden;
+    overflow-y:hidden;
+}
+/* img{
+    z-index:-2; 
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:auto;
+    overflow:hidden;
+} */
+#header section{
+    /* margin-top:50%; */
+    z-index:1;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+    height:100%;
+    font-size:4em;
+    color:white;
+    background-image:linear-gradient(to bottom, rgb(0,0,0,0.25),rgb(0,0,0,0.25)),url('../assets/bg3.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+/* #header section>*{
+    flex-basis: 100%;
+} */
+#header h1{
+    margin-top:1.25em;
+    margin-bottom:0em;
+    font-family: "Chopin Script", sans-serif;
+    font-weight:lighter;
+    font-size:2.5em;
+}
+#chevron-down{
+    height:0.75em;
+    width:auto;
+    /* display:inline-block; */
+}
+/* #chevron-down:hover{
+} */
+#first{
+    margin-right:auto;
+}
+
+@media screen and (max-width:70em){
+    nav{
+        font-size:1.5em;
+    }
+}

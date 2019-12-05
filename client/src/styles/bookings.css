@@ -1,0 +1,29 @@
+table{
+    width:95%;
+    margin:2em auto;
+    background-image:linear-gradient(to right, rgba(255,255,255,0.5), rgba(255,255,255,0.5)),url('../assets/bg2.jpeg');
+    background-size: cover;
+    background-repeat:no-repeat;
+    text-align:center;
+    font-size:2em;
+    border-collapse: collapse;
+}
+table caption{
+    margin-bottom:0.5em;
+}
+th,td{
+    border:0.1em solid black;
+    padding:0.25em 0.25em;
+}
+tr:nth-child(odd){
+    background-color:rgba(224, 224, 224, 0.5);
+}
+
+@media screen and (max-width:70em){
+    table{
+        width:100%;
+    }
+    th,td{
+        padding:0;
+    }
+}

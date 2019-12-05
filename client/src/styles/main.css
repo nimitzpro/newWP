@@ -1,0 +1,19 @@
+.main{
+    display:block;
+    width:100%;
+    /* background-color:rgba(247, 167, 250, 0.2); */
+    display:flex;
+    flex-wrap:wrap;
+}
+.main section{
+    min-width:20em;
+    margin:1em;
+    flex:1;
+    font-size:1.5em;
+}
+
+@media screen and (max-width:70em){
+    .main{
+        font-size:1.5em;
+    }
+}
